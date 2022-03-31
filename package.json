@@ -1,0 +1,25 @@
+{
+  "name": "generate-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llccing-demo/generate-pdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llccing-demo/generate-pdf/issues"
+  },
+  "homepage": "https://github.com/llccing-demo/generate-pdf#readme",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-ejs": "^4.3.0"
+  }
+}
